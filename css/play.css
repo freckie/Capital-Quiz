@@ -1,0 +1,91 @@
+@CHARSET "UTF-8"; 
+
+@font-face { 
+	font-family: 'NanumGothicBold'; 
+	src: url('./../font/NanumFont_TTF_ALL/NanumGothicBold.ttf') format('truetype'); 
+}
+
+@font-face { 
+	font-family: 'NanumGothic'; 
+	src: url('./../font/NanumFont_TTF_ALL/NanumGothic.ttf') format('truetype'); 
+}
+
+.myheader {
+	height: 60px;
+	top: 0;
+	opacity: 0.8;
+	position: fixed;
+	background-color: #ededed;
+}
+
+.main-wrapper {
+	width: 100%;
+	/*top: 5%;*/
+	padding: 0;
+	margin-top: 70px;
+}
+
+.score-bar {
+	/* width: %; :: Do Not set width attr.*/
+	display: flex;
+	text-align: center;
+
+}
+
+#score {
+	/*font-family: NanumGothicBold;*/
+	font-size: 1.25em;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: 100;
+}
+
+.q-wrapper {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.q-inner {
+	display: grid;
+	text-align: center;
+}
+
+.q-flag-holder {
+	width: 100%;
+	height: 110px;
+}
+
+#q-flag {
+	width: 100%;
+}
+
+#q-name {
+	font-size: 1.5em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#q-name-txt {
+	font-weight: 100;
+}
+
+.a-wrapper {
+}
+
+.a-inner {
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: ;
+}
+
+.a-btn {
+	width: 100%;
+	margin: 5px 0;
+	font-weight: 100;
+	height: 55px;
+	font-size: 1.1em;
+}
+
+.a-btn:hover {
+	background-color: #e5737370;
+}

@@ -1,0 +1,67 @@
+.inf-rank-dd li>a, .inf-rank-dd li>span {
+	color: #E57373;
+}
+
+#inf-rank-li1 a {
+	color: #FBC02D !important;
+}
+
+#inf-rank-li2 a {
+	color: #9E9E9E !important;	
+}
+
+#inf-rank-li3 a {
+	color: #A1887F !important;
+}
+
+.main-wrapper {
+	margin-top: 70px;
+	width: 100%;
+	padding: 0;
+}
+
+.l-wrapper {
+}
+
+.l-inner {
+	display: grid;
+	text-align: center;
+}
+
+.l-holder {
+	width: 100%;
+	height: 150px;
+}
+
+#l-logo {
+	width: 100%;
+}
+
+.b-wrapper {
+	margin-top: 30px;
+}
+
+.b-inner {
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: ;
+}
+
+.b-btn {
+	width: 100%;
+	margin: 5px 0;
+	font-weight: 100;
+	height: 45px;
+	font-size: 1.1em;
+}
+
+.b-btn:hover {
+}
+
+#my-copyright {
+	bottom: 20px;
+	right: 20px;
+	margin-right: 20px;
+	text-align: right;
+	font-size: 0.8em;
+}
